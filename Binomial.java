@@ -22,7 +22,7 @@ public class Binomial {
 	 }
 	
 	// Computes the Binomial function, efficiently
-	public static int binomial(int n, int k) {
+	public static long binomial(int n, int k) {
 		long[][] memo = new long[n + 1][k + 1];
 
     	for (int i = 0; i <= n; i++) {
